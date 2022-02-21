@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* START FLOAT HANDLER */
+.clear-both::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-col-13 {
+  width: 13%;
+}
+
+.float-col-20 {
+  width: 20%;
+}
+
+.float-col-25 {
+  width: 25%;
+}
+
+.float-col-40 {
+  width: 40%;
+}
+
+.float-col-50 {
+  width: 50%;
+}
+/* END FLOAT HANDLER */
